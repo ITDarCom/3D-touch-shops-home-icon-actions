@@ -1,0 +1,22 @@
+{
+  "name": "3D-touch-shops-home-icon-actions",
+  "version": "0.0.1",
+  "author": "AlaaAlShamey",
+  "description": "3D touch icons.",
+  "cordova": {
+    "id": "3D-touch-shops-home-icon-actions",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ITDarCom/3D-touch-shops-home-icon-actions.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ITDarCom/3D-touch-shops-home-icon-actions/issues"
+  },
+  "homepage": "https://github.com/ITDarCom/3D-touch-shops-home-icon-actions#readme"
+}

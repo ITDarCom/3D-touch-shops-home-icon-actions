@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="3D-touch-shops-home-icon-actions" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+	<name>App 3D touch shops home icon actions</name>
+	<author>Alaa Al Shamey</author>
+	<description></description>
+	<keywords></keywords>
+	<license></license>
+	<platform name="ios">
+		<config-file target="*-Info.plist" parent="UIApplicationShortcutItems">
+			<array>
+				<dict>
+					<key>UIApplicationShortcutItemIconFile</key>
+					<string>ion-home-outline</string>
+					<key>UIApplicationShortcutItemTitle</key>
+					<string>الرئيسية</string>
+					<key>UIApplicationShortcutItemType</key>
+					<string>home</string>
+				</dict>
+				<dict>
+					<key>UIApplicationShortcutItemIconType</key>
+					<string>UIApplicationShortcutIconTypeCompose</string>
+					<key>UIApplicationShortcutItemTitle</key>
+					<string>اتصل بنا</string>
+					<key>UIApplicationShortcutItemType</key>
+					<string>contactUs</string>
+				</dict>
+			</array>
+		</config-file>
+		<resource-file src="ion-home-outline.png" />
+	</platform>
+</plugin>
